@@ -1,0 +1,48 @@
+fieldset
+{
+   border:none;
+}
+output
+{
+  display: inline-block;
+  min-width: 2.5em;
+}
+label, output
+{
+  padding: 2px 9px;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size: 1.1em;
+}
+label[for=r], output[for=r]
+{
+  background-color: #F00;
+}
+label[for=g], output[for=g]
+{
+  background-color: #0F0;
+}
+label[for=b], output[for=b]
+{
+  background-color: #00F;
+}
+#hex
+{
+     background-color: #FA0;
+}    
+#container
+{
+     background:#E47313;
+     text-align: center;
+     padding: 40px 40px 40px 40px;
+     border-radius:30px 30px;
+}
+#heading
+{
+     font-size:22px;
+     color:#FFFFFF;
+     padding-bottom:30px;
+     border-bottom:2px solid #FFFFFF;
+     
+}
